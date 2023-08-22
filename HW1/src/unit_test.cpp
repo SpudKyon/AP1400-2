@@ -3,7 +3,7 @@
 #include "gmock/gmock.h"
 #include "hw1.h"
 
-/*
+
 TEST(HW1Test, ZEROS) {
     Matrix matrix{algebra::zeros(5, 6)};
 
@@ -349,7 +349,7 @@ TEST(HW1Test, UPPER_TRIANGULAR1) {
     EXPECT_NEAR(res2[2][1], 0, 0.03);
     EXPECT_NEAR(res2[2][2], 62, 0.03);
 }
-
+/*
 TEST(HW1Test, BONUS) {
     // test case
     Matrix matrix2{{0, 2, 3}, {4, 7, 5}, {6, 1, 3}};
