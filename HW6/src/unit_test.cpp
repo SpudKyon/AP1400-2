@@ -39,7 +39,7 @@ TEST(HW6Test, TEST4) {
     auto min = q1::gradient_descent<double, Func>(0.0, 0.01);
     EXPECT_NEAR(min, -1.57, 0.01);
 }
-/*
+
 TEST(HW6Test, TEST5) {
     std::vector<q2::Patient> patients = q2::read_file("lung_cancer.csv");
     EXPECT_EQ(patients.size(), 59);
@@ -98,7 +98,7 @@ TEST(HW6Test, TEST9) {
     EXPECT_NEAR(kalman.y, 0.4440, 0.01);
     // std::cout << kalman.x << ", " << kalman.y << std::endl;
 }
-*/
+
 
 
 
