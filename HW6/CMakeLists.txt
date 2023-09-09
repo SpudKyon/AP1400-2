@@ -15,6 +15,5 @@ target_link_libraries(main
         GTest::GTest
         GTest::Main
 )
-
 configure_file(${CMAKE_SOURCE_DIR}/resources/flights.txt ${CMAKE_CURRENT_BINARY_DIR}/flights.txt COPYONLY)
 configure_file(${CMAKE_SOURCE_DIR}/resources/lung_cancer.csv ${CMAKE_CURRENT_BINARY_DIR}/lung_cancer.csv COPYONLY)
